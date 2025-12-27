@@ -345,7 +345,7 @@ if __name__ == '__main__':
     parser.add_argument('--alpha', type=float, default=0.5, help='Weight for adversarial loss in Step 1')
     parser.add_argument('--beta', type=float, default=0.1, help='Weight for factorization loss')
     parser.add_argument('--gamma', type=float, default=0.5, help='Weight for adversarial loss in Step 2')
-    parser.add_argument('--delta', type=float, default=0.1, help='Weight for contrastive loss')
+    parser.add_argument('--delta', type=float, default=1, help='Weight for contrastive loss')
     
     args = parser.parse_args()
     
